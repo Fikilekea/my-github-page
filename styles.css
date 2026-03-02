@@ -4,7 +4,7 @@ body {
 
     color: #333;
 
-    background-color: #f9f9f9;
+    background-color: #fff8f2;
 
     margin: 0;
 
@@ -16,7 +16,7 @@ body {
 
 header {
 
-    background-color: #4CAF50;
+    background-color: #8FA98C;
 
     color: white;
 
@@ -72,7 +72,7 @@ main img {
 
 footer{ 
 
-    background-color: #333;
+    background-color: #8FA98C;
 
     color: white;
 
@@ -94,7 +94,7 @@ p {
 
 a {
 
-    color: #4CAF50;
+    color: #f3e5d8;
 
     text-decoration: none;
 
@@ -108,7 +108,7 @@ a:hover {
 
 img {
 
-    border: 5px solid #4CAF50;
+    border: 5px solid #f3e5d8;
 
     border-radius: 10px;
 
@@ -116,7 +116,7 @@ img {
 
 main a[href ="mailto:"] {
 
-    color: #ff5722;
+    color: #A8BBA3;
 
     font-weight: bold;
     
