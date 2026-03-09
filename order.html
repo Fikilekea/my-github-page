@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+
+    <title>Order Online - ByKea Bakery</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="order.html">Order Online</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Order Your Delicious Treats</h1>
+
+        <form action="confirmation.html">
+
+            <label for="name">Full Name</label>
+
+            <input type="text" id="name" required>
+
+            <label for="phone">Phone Number</label>
+
+            <input type="tel" id="phone" required>
+
+            <label for="email">Email</label>
+
+            <!--Macarons-->
+
+            <h2>Macarons</h2>
+
+            <label for="macaron_flavour" name="macaron_flavour">
+
+                <option value="">--Select Flavour--</option>
+
+                <option>Very Vanilla</option>
+
+                <option>Choco Choc</option>
+
+                <option>Pasty Pistachio</option>
+
+                <option>Silky Strawberry</option>
+
+                <option>Sally Salted Caramel</option>
+
+            </select>
+
+            <label for="macaron_qty">Quantity</label>
+
+            <input type="number"
+
+            id="macaron_qty" name="macaron_qty" min="0" value="0">
+
+            <!--Eclairs-->
+
+            <h2>Eclairs</h2>
+
+            <label for="eclair_flavour">Select Flavour</label>
+
+            <select id="eclair_flavour" name="eclair_flavour">
+
+                <option value="">--Select Flavour--</option>
+
+                <option>Nuty Nutella</option>
+
+                <option>Cappucino</option>
+
+                <option>Very Vanilla</option>
+
+                <option>Creamy</option>
+
+                <option>Creamy Caramel</option>
+
+            </select>
+
+            <label for="eclair_qty">Quantity</label>
+
+            <input type="number"
+
+            id="eclair_qty" name="eclair_qty" min="0" value="0">
+
+            <!--Croissants-->
+
+            <h2>Croissants</h2>
+
+            <label for="croissant_flavour">Select Flavour</label>
+
+            <select id="croissant flavour" name="croissant_flavour">
+
+                <option value="">--Select Flavour--</option>
+
+                <option>Vanilla</option>
+
+                <option>Biscoff</option>
+
+                <option>Pistachio</option>
+
+                <option>Chocolate</option>
+
+            </select>
+
+            <label for="croissant_qty">Quantity</label>
+
+            <input type="number"
+
+            id="croissant_qty" name="croissant_qty" min="0" value="0">
+
+            <!--Date & Instructions-->
+
+            <label for="Date">Date Needed</label>
+
+            <Input type="date" id="date" name="date" required>
+
+                <label for="instructions">Special Instructions</label>
+
+                <textarea id="instructions" name="instructions"></textarea>
+
+                <button type="submit">Place Order</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2025 ByKea Bakery</p>
+
+    </footer>
+
+</body>
+
+</html>
+
